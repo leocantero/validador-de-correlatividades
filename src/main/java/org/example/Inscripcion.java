@@ -6,11 +6,10 @@ import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
 
+@Getter @Setter
 public class Inscripcion {
     // Atributos
-    @Getter @Setter
     private Alumno alumno;
-    @Getter @Setter
     private List<Materia> materias;
 
     // Constructor

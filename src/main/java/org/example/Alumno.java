@@ -5,15 +5,12 @@ import java.util.List;
 import lombok.Getter;
 import lombok.Setter;
 
+@Getter @Setter
 public class Alumno {
     // Atributos
-    @Getter @Setter
     private String nombre;
-    @Getter @Setter
     private String apellido;
-    @Getter @Setter
     private String legajo;
-    @Getter @Setter
     private List<Materia> materiasAprobadas;
 
     // Constructor

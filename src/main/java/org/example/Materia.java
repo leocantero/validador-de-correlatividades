@@ -6,13 +6,11 @@ import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
 
+@Getter @Setter
 public class Materia {
     // Atributos
-    @Getter @Setter
     private String nombre;
-    @Getter @Setter
     private String codigo;
-    @Getter @Setter
     private List<Materia> correlativas;
 
     // Constructor
